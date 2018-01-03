@@ -75,7 +75,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 x42.Log("Click button2");
 
-                Intent intent = new Intent(getBaseContext(), Main2Activity.class);
+                Intent intent = new Intent(getBaseContext(), ToggleButtonActivity.class);
 
                 startActivity(intent);
             }
