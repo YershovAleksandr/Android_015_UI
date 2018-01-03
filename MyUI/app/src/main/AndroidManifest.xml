@@ -21,14 +21,14 @@
         <activity
             android:name=".Main2Activity"
             android:label="@string/title_activity_main2"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar"/>
         <activity android:name=".ButtonActivity"
-            android:label="UIButton">
-            <!--android:theme="@style/AppTheme">--> </activity>>
+            android:label="UIButton" />
         <activity android:name=".ToggleButtonActivity"/>
         <activity android:name=".CheckBoxActivity"/>
         <activity android:name=".RadioGroupActivity"/>
         <activity android:name=".HelloAndroidWithMenuActivity"/>
+        <activity android:name=".AlertDialogActivity"/>
     </application>
 
 </manifest>
