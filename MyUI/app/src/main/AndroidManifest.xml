@@ -28,6 +28,7 @@
         <activity android:name=".ToggleButtonActivity"/>
         <activity android:name=".CheckBoxActivity"/>
         <activity android:name=".RadioGroupActivity"/>
+        <activity android:name=".HelloAndroidWithMenuActivity"/>
     </application>
 
 </manifest>
