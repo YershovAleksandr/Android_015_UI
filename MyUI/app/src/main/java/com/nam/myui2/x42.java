@@ -1,6 +1,7 @@
 package com.nam.myui2;
 
 
+import android.util.Log;
 
 /**
  * Created by hp on 03.01.18.
@@ -8,6 +9,11 @@ package com.nam.myui2;
 
 public class x42 {
 
-    public final String mX42 = "Hello world";
+    public static String LOGTAG = "X42";
+
+    public static void Log(String str)
+    {
+        Log.i(LOGTAG, str);
+    }
 
 }
