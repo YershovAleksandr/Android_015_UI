@@ -10,4 +10,8 @@
     <string name="checkbox_string">CheckBox</string>
     <string name="im_not_checked_string">I am not checked</string>
     <string name="hide_checkbox_string">Hide CheckBox</string>
+    <string name="no_choice_made_string">No choice</string>
+    <string name="choice_1_string"># 1</string>
+    <string name="choice_2_string"># 2</string>
+    <string name="choice_3_string"># 3</string>
 </resources>

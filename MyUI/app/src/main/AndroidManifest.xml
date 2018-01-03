@@ -27,6 +27,7 @@
             <!--android:theme="@style/AppTheme">--> </activity>>
         <activity android:name=".ToggleButtonActivity"/>
         <activity android:name=".CheckBoxActivity"/>
+        <activity android:name=".RadioGroupActivity"/>
     </application>
 
 </manifest>

@@ -21,6 +21,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton;
     private Button mButton2;
     private Button mButton3;
+    private Button mButton4;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -88,6 +89,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 x42.Log("Click button3");
                 Intent intent = new Intent(getBaseContext(), CheckBoxActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mButton4 = (Button)findViewById(R.id.button4);
+        mButton4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button4");
+                Intent intent = new Intent(getBaseContext(), RadioGroupActivity.class);
                 startActivity(intent);
             }
         });
