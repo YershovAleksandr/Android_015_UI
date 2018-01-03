@@ -7,4 +7,7 @@
     <string name="press_me_string">Press me</string>
     <string name="start_string">Start</string>
     <string name="stop_string">Stop</string>
+    <string name="checkbox_string">CheckBox</string>
+    <string name="im_not_checked_string">I am not checked</string>
+    <string name="hide_checkbox_string">Hide CheckBox</string>
 </resources>
