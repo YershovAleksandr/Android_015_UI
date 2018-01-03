@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
 import android.support.v7.app.AppCompatActivity;
-import android.util.Log;
 import android.view.MenuItem;
 import android.widget.TextView;
 
@@ -46,9 +45,10 @@ public class MainActivity extends AppCompatActivity {
         navigation.setOnNavigationItemSelectedListener(mOnNavigationItemSelectedListener);
 
 
-        x42 xx = new x42();
+        //x42 xx = new x42();
 
-        Log.i(LOGTAG, "Fuck year!!! " + xx.mX42 );
+        //xx.Log("WTF&&&");
+        x42.Log("WTF&&&");
 
     }
 
