@@ -30,6 +30,11 @@
         <activity android:name=".HelloAndroidWithMenuActivity"/>
         <activity android:name=".AlertDialogActivity"/>
         <activity android:name=".AutoCompleteActivity"/>
+        <activity android:name=".HelloTabWidget"
+            android:theme="@style/Theme.Design.NoActionBar" />
+        <activity android:name=".AlbumsActivity"/>
+        <activity android:name=".ArtistsActivity"/>
+        <activity android:name=".SongsActivity" />
     </application>
 
 </manifest>
