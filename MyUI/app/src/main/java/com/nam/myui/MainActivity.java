@@ -24,6 +24,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton4;
     private Button mButton5;
     private Button mButton6;
+    private Button mButton7;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -125,6 +126,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mButton7 = (Button)findViewById(R.id.button7);
+        mButton7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button7");
+                Intent intent = new Intent(MainActivity.this, AutoCompleteActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 
