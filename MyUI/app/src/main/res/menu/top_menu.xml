@@ -10,7 +10,7 @@
         android:title="@string/more_help"/>
     <item
         android:id="@+id/even_more_help"
-        android:icon="@android:drawable/ic_menu_help"
+        android:icon="@drawable/ic_notifications_black_24dp"
         android:title="@string/even_more_help">
         <menu>
             <item
@@ -20,3 +20,5 @@
     </item>
 
 </menu>
+
+    <!--android:icon="@android:drawable/ic_menu_help"-->
