@@ -52,5 +52,8 @@
         <item>teal</item>
         <item>white</item>
     </string-array>
+    <string name="type_here_string">Type here!!!</string>
+    <string name="ok_string">Ok</string>
+    <string name="cancel_string">Cancel</string>
 
 </resources>
