@@ -55,5 +55,9 @@
     <string name="type_here_string">Type here!!!</string>
     <string name="ok_string">Ok</string>
     <string name="cancel_string">Cancel</string>
+    <string name="android_button_desc_string">Android Button</string>
+    <string name="check_it_out_string">Check IT</string>
+    <string name="vibrate_on_string">Vibrate ON</string>
+    <string name="vibrate_off_string">Vibrate OFF</string>
 
 </resources>

@@ -40,6 +40,7 @@
         <activity android:name=".ListViewActivity" />
         <activity android:name=".RatingsBarActivity" />
         <activity android:name=".RelativeLayoutActivity" />
+        <activity android:name=".SamplerActivity" />
     </application>
 
 </manifest>
