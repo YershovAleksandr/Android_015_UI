@@ -20,6 +20,14 @@
     <string name="even_more_help">Help!!!</string>
     <string name="give_up">Fuck up</string>
     <string name="fuck_fuck">Fuck yea</string>
-    <string name="shutdown_string">ShutDown WTF???</string>>
-    <string name="country_string">Country</string>>
+    <string name="shutdown_string">ShutDown WTF???</string>
+    <string name="country_string">Country</string>
+    <string name="red_string">Red</string>
+    <string name="green_string">Green</string>
+    <string name="blue_string">Blue</string>
+    <string name="yellow_string">Yellow</string>
+    <string name="row_one_string">Row one string</string>
+    <string name="row_two_string">Row two string</string>
+    <string name="row_three_string">Row three string</string>
+    <string name="row_four_string">Row four string</string>
 </resources>
