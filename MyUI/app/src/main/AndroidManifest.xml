@@ -38,6 +38,7 @@
         <activity android:name=".GalleryActivity" />
         <activity android:name=".LinearLayoutActivity" />
         <activity android:name=".ListViewActivity" />
+        <activity android:name=".RatingsBarActivity" />
     </application>
 
 </manifest>

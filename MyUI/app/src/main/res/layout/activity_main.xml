@@ -104,6 +104,28 @@
                 android:text="List view"
                 android:textAllCaps="false" />
 
+            <Button
+                android:id="@+id/button12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rating Bar"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="qqq"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="qqq"
+                android:textAllCaps="false" />
+
+
             <ToggleButton
                 android:id="@+id/toggleButton"
                 android:layout_width="match_parent"
