@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton8;
     private Button mButton9;
     private Button mButton10;
+    private Button mButton11;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -165,6 +166,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 x42.Log("Click button10");
                 Intent intent = new Intent(MainActivity.this, LinearLayoutActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mButton11 = (Button)findViewById(R.id.button11);
+        mButton11.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button11");
+                Intent intent = new Intent(MainActivity.this, ListViewActivity.class);
                 startActivity(intent);
             }
         });
