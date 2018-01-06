@@ -41,6 +41,7 @@
         <activity android:name=".RatingsBarActivity" />
         <activity android:name=".RelativeLayoutActivity" />
         <activity android:name=".SamplerActivity" />
+        <activity android:name=".SpinnerActivity" />
     </application>
 
 </manifest>
