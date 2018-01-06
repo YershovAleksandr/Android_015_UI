@@ -60,5 +60,16 @@
     <string name="vibrate_on_string">Vibrate ON</string>
     <string name="vibrate_off_string">Vibrate OFF</string>
     <string name="color_prompt">Select color!!!</string>
+    <string name="open_string">Open&#8230;</string>
+    <string name="ctrl_o_string">Ctrl-O</string>
+    <string name="save_string">Save&#8230;</string>
+    <string name="ctrl_s_string">Ctrl-S</string>
+    <string name="save_as_string">Save As&#8230;</string>
+    <string name="ctrl_shift_s_string">Ctrl-Shift-S</string>
+    <string name="x_string">X</string>
+    <string name="import_string">Import&#8230;</string>
+    <string name="export_string">Export&#8230;</string>
+    <string name="ctrl_e_string">Ctrl-E</string>
+    <string name="quit_string">Quit</string>
 
 </resources>
