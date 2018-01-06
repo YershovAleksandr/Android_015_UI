@@ -72,5 +72,6 @@
     <string name="ctrl_e_string">Ctrl-E</string>
     <string name="quit_string">Quit</string>
     <string name="image_desc_string">Image</string>
+    <string name="change_the_date_string">Change Date</string>
 
 </resources>

@@ -47,6 +47,7 @@
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".WebViewActivity" />
         <activity android:name=".GalleryWithViewPagerActivity" />
+        <activity android:name=".DatePickerActivity" />
     </application>
 
 </manifest>
