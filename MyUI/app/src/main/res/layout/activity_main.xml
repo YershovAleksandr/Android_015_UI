@@ -143,8 +143,23 @@
                 android:id="@+id/button17"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Web View"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="111111111111111"
                 android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111111111111111"
+                android:textAllCaps="false" />
+
 
 
             <ToggleButton

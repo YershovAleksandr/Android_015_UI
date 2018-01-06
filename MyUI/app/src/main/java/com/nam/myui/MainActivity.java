@@ -34,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton14;
     private Button mButton15;
     private Button mButton16;
+    private Button mButton17;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -235,6 +236,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mButton17 = (Button)findViewById(R.id.button17);
+        mButton17.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button17");
+                Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
