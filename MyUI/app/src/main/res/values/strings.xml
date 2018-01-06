@@ -59,5 +59,6 @@
     <string name="check_it_out_string">Check IT</string>
     <string name="vibrate_on_string">Vibrate ON</string>
     <string name="vibrate_off_string">Vibrate OFF</string>
+    <string name="color_prompt">Select color!!!</string>
 
 </resources>
