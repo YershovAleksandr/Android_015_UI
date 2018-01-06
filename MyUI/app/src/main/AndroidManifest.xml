@@ -46,6 +46,7 @@
         <activity android:name=".SpinnerActivity" />
         <activity android:name=".TableLayoutActivity" />
         <activity android:name=".WebViewActivity" />
+        <activity android:name=".GalleryWithViewPagerActivity" />
     </application>
 
 </manifest>

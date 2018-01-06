@@ -71,5 +71,6 @@
     <string name="export_string">Export&#8230;</string>
     <string name="ctrl_e_string">Ctrl-E</string>
     <string name="quit_string">Quit</string>
+    <string name="image_desc_string">Image</string>
 
 </resources>
