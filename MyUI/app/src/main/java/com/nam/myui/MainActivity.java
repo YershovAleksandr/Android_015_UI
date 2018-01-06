@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton18;
     private Button mButton19;
     private Button mButton20;
+    private Button mButton21;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -275,6 +276,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 x42.Log("Click button20");
                 Intent intent = new Intent(MainActivity.this, DatePickerFragmentActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mButton21 = (Button)findViewById(R.id.button21);
+        mButton21.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button21");
+                Intent intent = new Intent(MainActivity.this, TimePickerActivity.class);
                 startActivity(intent);
             }
         });

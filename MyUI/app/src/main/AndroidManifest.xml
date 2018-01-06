@@ -49,6 +49,7 @@
         <activity android:name=".GalleryWithViewPagerActivity" />
         <activity android:name=".DatePickerActivity" />
         <activity android:name=".DatePickerFragmentActivity" />
+        <activity android:name=".TimePickerActivity" />
     </application>
 
 </manifest>
