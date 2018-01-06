@@ -39,6 +39,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton19;
     private Button mButton20;
     private Button mButton21;
+    private Button mButton22;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -289,6 +290,17 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+        mButton22 = (Button)findViewById(R.id.button22);
+        mButton22.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button22");
+                Intent intent = new Intent(MainActivity.this, TimePickerFragmentActivity.class);
+                startActivity(intent);
+            }
+        });
+
 
 
     }

@@ -50,6 +50,7 @@
         <activity android:name=".DatePickerActivity" />
         <activity android:name=".DatePickerFragmentActivity" />
         <activity android:name=".TimePickerActivity" />
+        <activity android:name=".TimePickerFragmentActivity" />
     </application>
 
 </manifest>

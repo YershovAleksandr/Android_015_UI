@@ -178,7 +178,7 @@
                 android:id="@+id/button22"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="111111111111111"
+                android:text="Time Picker Fragment"
                 android:textAllCaps="false" />
 
             <Button
