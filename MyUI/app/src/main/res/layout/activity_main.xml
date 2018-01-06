@@ -129,7 +129,7 @@
                 android:id="@+id/button15"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="111111111111111"
+                android:text="Spinner"
                 android:textAllCaps="false" />
 
             <Button
