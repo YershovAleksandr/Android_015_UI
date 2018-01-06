@@ -42,6 +42,7 @@
         <activity android:name=".RelativeLayoutActivity" />
         <activity android:name=".SamplerActivity" />
         <activity android:name=".SpinnerActivity" />
+        <activity android:name=".TableLayoutActivity" />
     </application>
 
 </manifest>
