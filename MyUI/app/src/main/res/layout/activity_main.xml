@@ -206,7 +206,7 @@
                 android:id="@+id/button26"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="111111111111111"
+                android:text="Fragment Static Config"
                 android:textAllCaps="false" />
 
 
