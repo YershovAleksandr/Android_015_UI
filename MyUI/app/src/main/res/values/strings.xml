@@ -74,5 +74,6 @@
     <string name="image_desc_string">Image</string>
     <string name="change_the_date_string">Change Date</string>
     <string name="change_the_time_string">Change Time</string>
+    <string name="xxxxx_string">XXXXX</string>
 
 </resources>

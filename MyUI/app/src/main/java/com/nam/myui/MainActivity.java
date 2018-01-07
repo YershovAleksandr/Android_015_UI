@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton20;
     private Button mButton21;
     private Button mButton22;
+    private Button mButton23;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -301,6 +302,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mButton23 = (Button)findViewById(R.id.button23);
+        mButton23.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button23");
+                Intent intent = new Intent(MainActivity.this, TabLayoutActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
