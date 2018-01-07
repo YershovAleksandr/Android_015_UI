@@ -52,6 +52,9 @@
         <activity android:name=".TimePickerActivity" />
         <activity android:name=".TimePickerFragmentActivity" />
         <activity android:name=".TabLayoutActivity" />
+        <activity android:name=".UITLImageViewActivity" />
+        <activity android:name=".UIGLGridLayoutActivity" />
+        <activity android:name=".UIGLImageViewActivity" />
     </application>
 
 </manifest>

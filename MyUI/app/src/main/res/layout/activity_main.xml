@@ -192,6 +192,20 @@
                 android:id="@+id/button24"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:text="Grid Layout"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="111111111111111"
+                android:textAllCaps="false" />
+
+            <Button
+                android:id="@+id/button26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
                 android:text="111111111111111"
                 android:textAllCaps="false" />
 
