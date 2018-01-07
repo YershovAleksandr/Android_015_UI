@@ -56,6 +56,7 @@
         <activity android:name=".UIGLGridLayoutActivity" />
         <activity android:name=".UIGLImageViewActivity" />
         <activity android:name=".FSLQuoteViewerActivity" />
+        <activity android:name=".FSCLQuoteViewerActivity" />
     </application>
 
 </manifest>
