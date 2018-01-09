@@ -61,6 +61,7 @@
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
         <activity android:name=".QuoteListActivity"
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+        <activity android:name=".FDLQuoteViewerActivity" />
     </application>
 
 </manifest>

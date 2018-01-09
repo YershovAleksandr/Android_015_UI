@@ -220,7 +220,7 @@
                 android:id="@+id/button28"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="aaaaaa"
+                android:text="Fragment Dynamic Layout"
                 android:textAllCaps="false" />
 
             <Button

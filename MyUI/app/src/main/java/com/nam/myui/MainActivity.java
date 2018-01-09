@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton25;
     private Button mButton26;
     private Button mButton27;
+    private Button mButton28;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -352,6 +353,16 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 x42.Log("Click button27");
                 Intent intent = new Intent(MainActivity.this, TitlesListActivity.class);
+                startActivity(intent);
+            }
+        });
+
+        mButton28 = (Button)findViewById(R.id.button28);
+        mButton28.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button28");
+                Intent intent = new Intent(MainActivity.this, FDLQuoteViewerActivity.class);
                 startActivity(intent);
             }
         });
