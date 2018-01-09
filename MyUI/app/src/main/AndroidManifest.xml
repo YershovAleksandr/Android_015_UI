@@ -57,6 +57,10 @@
         <activity android:name=".UIGLImageViewActivity" />
         <activity android:name=".FSLQuoteViewerActivity" />
         <activity android:name=".FSCLQuoteViewerActivity" />
+        <activity android:name=".TitlesListActivity"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+        <activity android:name=".QuoteListActivity"
+        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
     </application>
 
 </manifest>
