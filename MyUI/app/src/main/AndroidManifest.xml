@@ -58,10 +58,11 @@
         <activity android:name=".FSLQuoteViewerActivity" />
         <activity android:name=".FSCLQuoteViewerActivity" />
         <activity android:name=".TitlesListActivity"
-        android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
+        android:theme="@style/Theme.AppCompat.DayNight.DarkActionBar" />
         <activity android:name=".QuoteListActivity"
         android:theme="@android:style/Theme.Holo.Light.DarkActionBar" />
         <activity android:name=".FDLQuoteViewerActivity" />
+        <activity android:name=".FDLAQuoteViewerActivity" />
     </application>
 
 </manifest>
