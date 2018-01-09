@@ -47,6 +47,7 @@ public class MainActivity extends AppCompatActivity {
     private Button mButton27;
     private Button mButton28;
     private Button mButton29;
+    private Button mButton30;
 
     private BottomNavigationView.OnNavigationItemSelectedListener mOnNavigationItemSelectedListener
             = new BottomNavigationView.OnNavigationItemSelectedListener() {
@@ -378,6 +379,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        mButton30 = (Button)findViewById(R.id.button30);
+        mButton30.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                x42.Log("Click button30");
+                Intent intent = new Intent(MainActivity.this, FPLQuoteViewerActivity.class);
+                startActivity(intent);
+            }
+        });
 
     }
 

@@ -234,7 +234,7 @@
                 android:id="@+id/button30"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="aaaa"
+                android:text="Fragment Programmatic Layout"
                 android:textAllCaps="false" />
 
             <Button
